@@ -13,7 +13,9 @@
         <link href="{% static 'css/animate.min.css" rel="stylesheet' %}" />
         <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
 
-
+                        <script src="{% static 'js/skel.min.js' %}"></script>
+        <script src="{% static 'js/skel-panels.min.js' %}"></script>
+        <script src="{% static 'js/init.js' %}"></script>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -80,6 +82,8 @@
                             <a href='javascript:dc.filterAll();dc.redrawAll();'><font color="#33CC99">Reset All</font></a>
                         </span>
                     </div>
+                    <div> <span> &nbsp</span></div>
+                    <a href="{% url 'idea2' %}" class="btn btn-success btn-lg btn-huge lato">I know what I want to do!</a>
                 </div>
             </div>
 

@@ -87,9 +87,9 @@ d3.csv('/static/uptomanhat2.csv', function makeGraphs(data) {
 		.formatNumber(d3.format(".3s"));
 
 	techP
-            .height(400)
+            .height(300)
             .width(500)
-            .radius(160)
+            .radius(150)
             .innerRadius(50)
             .transitionDuration(1000)
             .dimension(techSpread)
@@ -98,9 +98,9 @@ d3.csv('/static/uptomanhat2.csv', function makeGraphs(data) {
             .group(viewsbyTech);
 
     	catP
-            .height(400)
+            .height(300)
             .width(400)
-            .radius(160)
+            .radius(150)
             .innerRadius(50)
             .transitionDuration(1000)
             .dimension(catSpread)
@@ -110,9 +110,9 @@ d3.csv('/static/uptomanhat2.csv', function makeGraphs(data) {
 
 
        typeP
-            .height(400)
+            .height(300)
             .width(400)
-            .radius(160)
+            .radius(150)
             .innerRadius(50)
             .transitionDuration(1000)
             .dimension(typeSpread)
